@@ -1,7 +1,13 @@
-import "./App.css";
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
 
 function App() {
-  return <div className="App">{/* Start coding here */}</div>;
+  return (
+    <div className="">
+      <Nav />
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
